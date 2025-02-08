@@ -1,2 +1,15 @@
 @import url(./global.css);
 
+.hero {
+    background: url('../assets/img/Fundo-azul.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}

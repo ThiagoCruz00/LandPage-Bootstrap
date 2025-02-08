@@ -11,13 +11,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <title>Second Bootstrap LandPage</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/Logo.png"
+      type="image/x-icon"
+    />
+    <title>TT Games</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Meu site</a>
+        <a class="navbar-brand" href="#">TT Games</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,19 +35,279 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#hero">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#hero">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link" href="#hero">Depoimentos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#hero">Contato</a></li>
-            </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Contato</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
 
     <!-- Hero -->
 
-    
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>Bem vindo ao Meu Site</h1>
+        <p class="lead">Trnasformando ideias em realidade digital!</p>
+        <a href="#servicos" class="btn btn-primary btn-lg">Saiba Mais</a>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section id="servicos" class="container my-5">
+      <h2 class="text-center mb-4">Nossos Serviços</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img
+              src="./assets/img/PS5 - fat.jpg"
+              class="card-img-top"
+              alt="Imagem"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PS5 - FAT</h5>
+              <p class="card-text">
+                O "FAT" se refere ao modelo original e mais robusto do PS5,
+                lançado em novembro de 2020. Ele é maior, com um design mais
+                ousado e curvas marcantes. Este modelo tem uma estrutura mais
+                espessa devido ao sistema de refrigeração necessário para manter
+                o hardware funcionando em altas temperaturas.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
+              >
+                Detalhes
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img
+              src="./assets/img/PS5 - fat.jpg"
+              class="card-img-top"
+              alt="Imagem"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PS5 - SLIM</h5>
+              <p class="card-text">
+                O termo "SLIM" geralmente é usado para se referir a versões mais
+                compactas das consolas. A Sony historicamente lança versões
+                "slim" de seus consoles, e espera-se que o PS5 também tenha uma
+                versão mais fina e compacta no futuro, com o mesmo poder de
+                processamento, mas em um design menor e mais eficiente.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal2"
+              >
+                Detalhes
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img
+              src="./assets/img/PS5 - fat.jpg"
+              class="card-img-top"
+              alt="Imagem"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PS5 - PRO</h5>
+              <p class="card-text">
+                O "PRO" refere-se a uma versão mais poderosa, lançada após o
+                modelo original. Historicamente, a Sony tem lançado uma versão
+                "Pro" para aumentar o desempenho gráfico e outras capacidades do
+                console (como ocorreu com o PS4 e PS4 Pro). A versão "Pro" do
+                PS5 provavelmente trará uma melhoria significativa no
+                desempenho.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modal3"
+              >
+                Detalhes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modals -->
+    <div class="modal fade" id="modal1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">PS5 - FAT</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="space-y-2">
+              <li>
+                <strong>CPU:</strong> AMD Ryzen Zen 2 personalizado, 8
+                núcleos/16 threads
+              </li>
+              <li>
+                <strong>GPU:</strong> Arquitetura RDNA 2 personalizada, com 10,3
+                Teraflops
+              </li>
+              <li><strong>Memória RAM:</strong> 16 GB GDDR6</li>
+              <li>
+                <strong>Armazenamento:</strong> SSD personalizado de 825 GB
+              </li>
+              <li><strong>Conectividade:</strong> Wi-Fi 6, Bluetooth 5.1</li>
+              <li>
+                <strong>Portas:</strong> 1x USB-C, 3x USB-A, HDMI 2.1, Ethernet
+              </li>
+              <li><strong>Dimensões:</strong> 390 mm x 104 mm x 260 mm</li>
+              <li><strong>Peso:</strong> Aproximadamente 4,5 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">PS5 - SLIM</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="space-y-2">
+              <li>
+                <strong>CPU:</strong> AMD Ryzen Zen 2 personalizado, 8
+                núcleos/16 threads
+              </li>
+              <li>
+                <strong>GPU:</strong> Arquitetura RDNA 2 personalizada, com 10,3
+                Teraflops
+              </li>
+              <li><strong>Memória RAM:</strong> 16 GB GDDR6</li>
+              <li><strong>Armazenamento:</strong> SSD personalizado de 1 TB</li>
+              <li><strong>Conectividade:</strong> Wi-Fi 6, Bluetooth 5.1</li>
+              <li>
+                <strong>Portas:</strong> 1x USB-C, 3x USB-A, HDMI 2.1, Ethernet
+              </li>
+              <li><strong>Dimensões:</strong> 358 mm x 96 mm x 216 mm</li>
+              <li><strong>Peso:</strong> Aproximadamente 3,9 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">PS5 - PRO</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="space-y-2">
+              <li>
+                <strong>CPU:</strong> AMD Ryzen Zen 4 personalizado, 8
+                núcleos/16 threads
+              </li>
+              <li>
+                <strong>GPU:</strong> Arquitetura RDNA 3 personalizada, com 20,4
+                Teraflops
+              </li>
+              <li><strong>Memória RAM:</strong> 18 GB GDDR6</li>
+              <li><strong>Armazenamento:</strong> SSD personalizado de 1 TB</li>
+              <li><strong>Conectividade:</strong> Wi-Fi 7, Bluetooth 5.2</li>
+              <li>
+                <strong>Portas:</strong> 2x USB-C, 4x USB-A, HDMI 2.1, Ethernet
+              </li>
+              <li><strong>Dimensões:</strong> 390 mm x 96 mm x 260 mm</li>
+              <li><strong>Peso:</strong> Aproximadamente 5 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carrossel de Depoimentos -->
+    <section id="depoimentos" class="container my-5">
+      <h2 class="text-center mb-4">Depoimentos</h2>
+      <div
+        id="carrosselDepoimentos"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <p class="lead">"Comprei o PS5 Fat no lançamento e até hoje ele entrega uma performance incrível. Os gráficos são absurdamente detalhados, e o SSD rápido faz toda a diferença nos tempos de carregamento. Não me arrependo da escolha!"</p>
+            <small>- Elon Musk</small>
+          </div>
+          <div class="carousel-item text-center">
+            <p class="lead">"O PS5 Slim foi perfeito para mim! Compacto e com o mesmo poder do modelo original. Ele se encaixa muito bem no meu setup, e os jogos rodam lisos como nunca. É perfeito para quem quer economizar espaço sem abrir mão de qualidade."</p>
+            <small>- Mark zuckerberg</small>
+          </div>
+          <div class="carousel-item text-center">
+            <p class="lead">"O PS5 Pro é simplesmente de outro nível. Eu já tinha o modelo original, mas os gráficos em 4K com ray tracing são ainda mais impressionantes aqui. Jogar em uma TV OLED com ele é uma experiência de outro mundo!"</p>
+            <small>- Neymar Jr.</small>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carrosselDepoimentos"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carrosselDepoimentos"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="bg-dark text-white text-center py-4">
+      <p>&copy; 2025 TT Games. Todos os direitos reservados.</p>
+      <p>📍 Endereço: Tōkyō Prefectural Rte 415 - Minato, Tóquio</p>
+      <p>📧 Email: comercial@TTgames.com</p>
+      <p>
+        🔗 Redes Sociais: <a href="#" class="text-white">Instagram</a> |
+        <a href="#" class="text-white">LinkedIn</a>
+      </p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
